@@ -1,0 +1,20 @@
+# Entorno virtual local (pesado y no compatible con el contenedor)
+.venv/
+
+# Caché de Python (archivos compilados innecesarios)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Historial de Git
+.git/
+.gitignore
+
+# Archivos de configuración local y secretos (¡Muy importante!)
+.env
+
+# Archivos propios de Docker que no se necesitan dentro del contenedor
+Dockerfile
+.dockerignore
+run.sh
